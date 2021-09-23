@@ -21,11 +21,11 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/yaodunpeng/YPMacros'
+  s.homepage         = 'https://github.com/emosiony/YPMacros'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'yaodunpeng' => '915620082@qq.com' }
-  s.source           = { :git => 'https://github.com/yaodunpeng/YPMacros.git', :tag => s.version.to_s }
+  s.author           = { 'emosiony' => '915620082@qq.com' }
+  s.source           = { :git => 'https://github.com/emosiony/YPMacros.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '9.0'

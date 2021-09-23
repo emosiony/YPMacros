@@ -1,6 +1,0 @@
-framework module YPMacros {
-  umbrella header "YPMacros-umbrella.h"
-
-  export *
-  module * { export * }
-}

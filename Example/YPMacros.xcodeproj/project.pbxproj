@@ -37,7 +37,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		049B3FEA26FC56460012377D /* YPMacros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YPMacros.h; sourceTree = "<group>"; };
 		0C2FB092AE31BA1CA65A5FF8 /* Pods-YPMacros_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YPMacros_Tests.debug.xcconfig"; path = "Target Support Files/Pods-YPMacros_Tests/Pods-YPMacros_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		364E3DC8D275662DE18A56F0 /* Pods-YPMacros_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YPMacros_Tests.release.xcconfig"; path = "Target Support Files/Pods-YPMacros_Tests/Pods-YPMacros_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		5022216E90431F40C5844321 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
@@ -96,14 +95,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		049B3FE926FC561A0012377D /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				049B3FEA26FC56460012377D /* YPMacros.h */,
-			);
-			name = Classes;
-			sourceTree = "<group>";
-		};
 		1C4C1D42E2AB3975FE8BA819 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -198,7 +189,6 @@
 		60FF7A9C1954A5C5007DD14C /* Podspec Metadata */ = {
 			isa = PBXGroup;
 			children = (
-				049B3FE926FC561A0012377D /* Classes */,
 				AC42AA7B69B89F0E6F6556BB /* YPMacros.podspec */,
 				FA03876767B6E9CA93565E84 /* README.md */,
 				5022216E90431F40C5844321 /* LICENSE */,
@@ -217,7 +207,6 @@
 				6003F586195388D20070C39A /* Sources */,
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
-				41527761061AF025FDE467EF /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -325,24 +314,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		41527761061AF025FDE467EF /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-YPMacros_Example/Pods-YPMacros_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/YPMacros/YPMacros.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YPMacros.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-YPMacros_Example/Pods-YPMacros_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		CC4B820AC8B5AA1396A75D38 /* [CP] Check Pods Manifest.lock */ = {

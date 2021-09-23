@@ -3,16 +3,16 @@
   "version": "0.1.0",
   "summary": "A short description of YPMacros.",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/yaodunpeng/YPMacros",
+  "homepage": "https://github.com/emosiony/YPMacros",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
   },
   "authors": {
-    "yaodunpeng": "915620082@qq.com"
+    "emosiony": "915620082@qq.com"
   },
   "source": {
-    "git": "https://github.com/yaodunpeng/YPMacros.git",
+    "git": "https://github.com/emosiony/YPMacros.git",
     "tag": "0.1.0"
   },
   "platforms": {
