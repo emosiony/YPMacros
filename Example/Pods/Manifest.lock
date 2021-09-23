@@ -1,0 +1,16 @@
+PODS:
+  - YPMacros (0.1.0)
+
+DEPENDENCIES:
+  - YPMacros (from `../`)
+
+EXTERNAL SOURCES:
+  YPMacros:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  YPMacros: c4bed8d5d1a393e71c35dcf35e28d6be91a2adb4
+
+PODFILE CHECKSUM: 5e09936b099ee96ada3a2188f64486d6ce1294de
+
+COCOAPODS: 1.9.1
